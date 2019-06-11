@@ -1,0 +1,53 @@
+<% include partials/header %>
+
+  <nav aria-label="...">
+    <ul class="pager">
+      <li class="previous"><a href="/"><span aria-hidden="true">&larr;</span> Back</a></li>
+      <li class="next"><a href="/login">Log-in <span aria-hidden="true">&rarr;</span></a></li>
+    </ul>
+  </nav>
+
+  <div class="reservo-thumb">
+    <h1>Provide your details:</h1>
+
+    <form method="POST" action="/registration">
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+        <span class="glyphicon glyphicon-user"></span>
+        </span>
+        <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+      </div>
+      <br />
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+        <span class="glyphicon glyphicon-asterisk"></span>
+        </span>
+        <input type="password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+      </div>
+      <br />
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+        <span class="glyphicon glyphicon-asterisk"></span>
+        </span>
+        <input type="password" class="form-control" placeholder="Repeat password" aria-describedby="basic-addon1">
+      </div>
+      <br />
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+        <span class="glyphicon glyphicon-phone-alt"></span>
+        </span>
+        <input type="text" class="form-control" placeholder="Phone number" aria-describedby="basic-addon1">
+      </div>
+      <br />
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="basic-addon1">
+        <span class="glyphicon glyphicon-envelope"></span>
+        </span>
+        <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+      </div>
+      <br />
+      <input type="submit" class="btn btn-primary btn-lg reservo-full-width" value="Submit">
+    </form>
+  </div>
+
+  <% include partials/footer %>

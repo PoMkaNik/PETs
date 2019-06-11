@@ -1,0 +1,24 @@
+{
+  "name": "server-clients-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Roman Dubovik",
+  "license": "ISC",
+  "dependencies": {
+    "@risingstack/graffiti": "^3.3.0",
+    "@risingstack/graffiti-mongoose": "^5.3.0",
+    "bcrypt": "^1.0.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "graphql": "^0.7.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.4",
+    "morgan": "^1.7.0",
+    "shortid": "^2.2.6"
+  }
+}

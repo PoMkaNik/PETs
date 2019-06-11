@@ -1,0 +1,29 @@
+- sysRouters -
+1. Move all response in sysHandler
+2. Add creation of Team Member as function, handler and add to the /setup route in sysHandler
+3. 
+
+
+
+- in ClinetDB -
+1. Add field 'status' and possible variants: 'demo, billing, disabled'
+2. Add field 'disableReason' to specify reason of Client disable: demo period ended, no payments...
+3. Add timestamps to DB
+
+- in auth -
+1. Add check of Client status field in authorization process and return reason if disabled
+
+
+- RESERVO team -
+1. Add additional routes for RESERVO team:
+1.1 Add team member with rights
+1.2 Add auth middleware
+1.3 Change Client status
+
+
+- Billing -
+1. Add billing
+
+
+- Notifications -
+1. Add notification system for Client dashboard (for billing and other purposes)

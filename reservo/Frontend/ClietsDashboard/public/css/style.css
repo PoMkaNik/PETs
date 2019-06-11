@@ -1,0 +1,13 @@
+.reservo-center {
+  margin: 10% auto;
+
+}
+.reservo-thumb {
+  height: 250px;
+  width: 350px;
+  text-align: center;
+  margin: auto;
+}
+.reservo-full-width {
+  width: 100%;
+}
